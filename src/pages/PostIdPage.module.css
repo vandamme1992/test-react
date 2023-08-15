@@ -1,0 +1,10 @@
+.PostIdPage {
+    display: flex;
+    border: 2px solid gray;
+    margin-top: 15px;
+    padding: 15px;
+
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+}

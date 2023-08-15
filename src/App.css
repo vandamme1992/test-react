@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.App {
+width: 800px;
+    margin: 0 auto;
+}
+
+.form {
+    margin-top: 15px;
+    gap: 5px;
+}
+
+.remove-btn {
+    margin-right: 0.5rem;
+}
+
+.post-enter {
+    transform: translateX(-350px);
+}
+.post-enter-active {
+    transform: translateX(0);
+    transition: all 500ms ease-in;
+}
+.post-exit {
+    opacity: 1;
+}
+.post-exit-active {
+    transform: translateX(-350px);
+    transition: all 500ms ease-in;
+}
+
+/*button*/
+
+.page__wrapper {
+    margin-top: 30px;
+    display: flex;
+}
+
+.page {
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid grey;
+}
+
+.page__current {
+    color: #000000;
+    background-color: #cccccc;
+    font-weight: bold;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    height: 50px;
+   min-width: 100vw;
+    font-weight: bold;
+    gap: 35px;
+    margin-bottom: 10px;
+    background-color: lightgray;
+}
